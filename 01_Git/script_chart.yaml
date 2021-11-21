@@ -1,0 +1,13 @@
+###
+### processing flow in scritp.sh
+###
+
+Prerequisites:
+  - target file(.bashrc ...etc) is exist.
+  - target file is not set.
+
+Process flow:
+  - judge prerequisites condition
+  - comfirm execution (user interactive)
+  - exectue setting(modify target file)
+  - print end message
